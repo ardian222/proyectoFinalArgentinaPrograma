@@ -205,6 +205,80 @@
         </div>
       </div>
       <div class="btn-2" id="load-more">Cargar Mas</div>
+
+      <form action="/enviar_cotizacion" method="post">
+        <label for="nombre">Nombre del solicitante:</label>
+        <input type="text" id="nombre" name="nombre" />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" />
+
+        <label for="servicio">Tipo de servicio/producto requerido:</label>
+        <input type="text" id="servicio" name="servicio" />
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" />
+
+        <label for="detalles">Detalles adicionales:</label>
+        <textarea id="detalles" name="detalles"></textarea>
+
+        <label for="fecha_limite">Fecha límite de entrega:</label>
+        <input type="date" id="fecha_limite" name="fecha_limite" />
+
+        <label for="presupuesto">Presupuesto máximo:</label>
+        <input type="number" id="presupuesto" name="presupuesto" />
+
+        <input type="submit" value="Enviar" />
+      </form>
+
+      <style>
+        @import url("https://fonts.googleapis.com/css2? family= Nunito:wght@400;500;600;700;800 & family= Poppins:wght@500;600;700;800 & mostrar=cambiar");
+
+        form {
+          width: 70%;
+          margin: 0 auto;
+          font-family: 'Nunito', sans-serif;
+        }
+
+        label {
+          display: block;
+          margin-top: 1em;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        textarea {
+          width: 100%;
+          padding: 0.5em;
+          margin-top: 0.5em;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          font-size: 1em;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="submit"] {
+          margin-top: 1em;
+          background-color: #ff9000;
+          color: white;
+          padding: 0.5em;
+          border: none;
+          border-radius: 15px;
+          cursor: pointer;
+          font-size: 1em;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="submit"]:hover {
+          background-color: #ff9000;
+        }
+      </style>
     </main>
 
     <section class="app container">
@@ -217,11 +291,11 @@
           ipsam delectus! Iure, tenetur!
         </p>
         <div class="descarga">
-          <img src="./images/store1.png" alt="">
-          <img src="./images/store2.png" alt="">
+          <img src="./images/store1.png" alt="" />
+          <img src="./images/store2.png" alt="" />
         </div>
         <div class="app-img">
-          <img src="./images/app.png" alt="">
+          <img src="./images/app.png" alt="" />
         </div>
       </div>
     </section>
@@ -230,42 +304,40 @@
       <div class="footer-content container">
         <h3>Lorem</h3>
         <ul>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-      </ul>
-      </div>
-      
-      <div class="footer-content container">
-        <h3>Lorem</h3>
-        <ul>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-      </ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
       </div>
 
       <div class="footer-content container">
         <h3>Lorem</h3>
         <ul>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-      </ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content container">
+        <h3>Lorem</h3>
+        <ul>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">lorem</a></li>
+        </ul>
       </div>
 
       <div class="footer-content container">
         <h3>Descarga nuestra app</h3>
         <div class="descarga">
-          <img src="./images/store1.png" alt="">
-          <img src="./images/store2.png" alt="">
+          <img src="./images/store1.png" alt="" />
+          <img src="./images/store2.png" alt="" />
         </div>
       </div>
-
-
     </footer>
 
     <script src="script.js"></script>
