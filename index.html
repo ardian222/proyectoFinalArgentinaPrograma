@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>La Taberna Española</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,17 +12,23 @@
       <img class="bg" src="./images/bg.png" alt="" />
 
       <div class="menu container">
-        <a href="#" class="logo">Logo</a>
+        <a href="#" class="logo"
+          ><img src="./images/logo.png" class="logo" alt=""
+        /></a>
         <input type="checkbox" id="menu" />
         <label for="menu">
           <img src="./images/menu.png" class="menu-icono" alt="" />
         </label>
         <nav class="navbar">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li>
+              <a href="./formulario/formulario.html" target="_blank"
+                >Regístrate</a
+              >
+            </li>
           </ul>
         </nav>
         <div>
@@ -51,10 +57,8 @@
         <div class="header-txt">
           <h1><span>Bienvenido</span> disfruta de nuestros platos</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-            numquam libero eveniet aperiam, beatae quam vel odit dolores veniam
-            quis aut vero, adipisci sit corrupti reiciendis fugiat? Accusamus,
-            facilis commodi.
+            La Taberna Española ofrece productos de alta calidad, frescos y bien
+            preparados, que satisfacen los paladares más exigentes.
           </p>
           <a href="#" class="btn-1">Información</a>
         </div>
@@ -65,7 +69,7 @@
     </header>
 
     <section class="breakfast container">
-      <h2>Desayunos</h2>
+      <h2 id="servicios">Desayunos</h2>
       <p>horario 8am - 11.30am</p>
       <div class="breakfast-content">
         <div class="breakfast-1">
@@ -99,13 +103,13 @@
         </div>
 
         <div class="info-txt">
-          <h2>La mejor calidad en los productos</h2>
+          <h2 id="productos">La mejor calidad en los productos</h2>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-            reprehenderit iusto id, minus facere deleniti hic sit voluptate
-            tempora odit minima doloribus, reiciendis dignissimos exercitationem
-            ea eum accusantium placeat laboriosam!
+            Utilizamos ingredientes frescos y de alta calidad en todas nuestras
+            recetas para asegurarnos de que nuestros platos tengan un sabor
+            delicioso. También estamos comprometidos con la sostenibilidad y
+            utilizamos productos locales y orgánicos siempre que sea posible.
           </p>
           <a href="#" class="btn-1">Información</a>
         </div>
@@ -211,10 +215,8 @@
       <div class="app-txt">
         <h2>Descarga nuestra app Descubre ofertas</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          atque! Distinctio iusto assumenda explicabo officiis itaque corporis.
-          Fuga, fugit! Cupiditate unde dolorum quisquam iste doloribus maiores
-          ipsam delectus! Iure, tenetur!
+          Descarga nuestra app y accede a una experiencia única, con
+          funcionalidades innovadoras y una interfaz amigable e intuitiva.
         </p>
         <div class="descarga">
           <img src="./images/store1.png" alt="" />
@@ -228,7 +230,7 @@
 
     <footer class="footer">
       <div class="footer-content container">
-        <h3>Contacto</h3>
+        <h3 id="contacto">Contacto</h3>
         <ul>
           <li>
             <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"
